@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(186, 185, 185, 0.5)50%,rgba(202, 201, 201, 0.502)50%),url("book.jpg");
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+}
+navbar{
+    width: 1200px;
+    height:75px;
+    margin:auto;
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo{
+    color:rgb(239, 22, 102);
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+.menu{
+    weight:400px;
+    float:left;
+    height:70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 27PX;
+    margin-left: 62PX;
+    font-size: 14PX;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(2, 2, 15);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:crimson;
+}
+.search{
+    width:330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height:30px;
+    background: transparent;
+    border: 1px solid crimson;
+    margin-top: 10px;
+    color: rgb(247, 247, 247);
+    border-right: none;
+    font-size: 20px;
+    float: left;
+    padding: 15px;
+    border-buttom-left-radious: 5px;
+    border-top-left-radious: 5px;
+
+}
+.btn{
+    width:200;
+    height:32px;
+    background: crimson;
+    border: 2px solid crimson;
+    color: rgb(7, 7, 7);
+    border-right: none;
+    margin-top: 10px;
+    font-size: 15px;
+    border-buttom-left-radious: 5px;
+    border-top-left-radious: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height:2000px;
+    margin: 80px;;
+    color: white
+    position: relative;
+    
+}
+.content .per{
+    padding-left: 10px;
+    padding-right: 25px;
+    font-family: Arial;
+    letter-spacing:2px;
+    line-height: 30px;
+}
+.content .h1{
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    padding-left: 50px;
+    margin-top: 200%;
+    letter-spacing: 6px;
+    padding-top: 50px;
+}
+.content .cn{
+    weight:1200px;
+    height:40px;
+    background: crimson;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+.cn:hover{
+ background-color: black;
+}
+.content span{
+    color: crimson;
+    font-size: 40px;
+}
+.form{
+    width: 300px;
+    height:450px;
+    background: linear-gradient(to top, white,white);
+    position: absolute;
+    top:300px;
+    left: 1050px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width:220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: crimson;
+    font-size: 22px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid crimson;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:crimson;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.form input:focus{
+    outline:none;
+}
+::placeholder{
+    Color:rgb(9, 2, 7);
+    font-family: Arial;
+}
+.btnn{
+    weight:1200px;
+    height: 40px;
+    background: crimson;
+    border: none;
+    font-size: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+
+}
+
+.btnn:hover{
+    background:black;
+    color: white;
+}
+.btnn a{
+    text-decoration: none;
+    color:rgb(216, 246, 255);
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: crimson;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
